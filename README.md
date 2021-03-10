@@ -37,16 +37,24 @@ name=CentOS $releasever – Extras
 baseurl=http://mirror.centos.org/centos/7/extras/$basearch/
 gpgcheck=0
 enabled=1
+
+
 *******Copy till above line and past that to /etc/tum.repos.d/CentOS.repo*************
+
 copy next 3 lines and past it on FortiNAC CLI
+
 yum repolist all
 yum update
 yum install python3
+
 ********Done with pre-requisites****
+
 Copy this script to /home/cm/scripts of FortiNAC and use below 3 commands to change ownership and permission
+
 cd /home/cm/scripts
 chmod 755 Mac-Domain-Check.py
 chown nac:nac MacDomain-Check.py
+
 
 
 
