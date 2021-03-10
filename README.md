@@ -21,6 +21,7 @@ mkdir /etc/yum.repos.d
 create a new file /etc/yum.repos.d/CentOS.repo and paste below content
 
 *****Copy below content********
+
 [base]
 name=CentOS $releasever – Base
 baseurl=http://mirror.centos.org/centos/7/os/$basearch/
