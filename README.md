@@ -1,7 +1,8 @@
 # MacOS-Domain-Check
 
-FortiNAC till v8.8.5 cannot send SMS using https API
-I tried to create a python script to send SMS once guest is registered
+FortiNAC till v8.8.5 cannot check if MacOS is domain joined or not
+I tried to create a python script in python to check if MacOS host is domain joined or not
+
 
 
 Below are the pre-requisites and steps need to be taken to install the script
@@ -39,7 +40,7 @@ gpgcheck=0
 enabled=1
 
 
-*********Copy till above line and past that to /etc/tum.repos.d/CentOS.repo***************
+*******Copy till above line and past that to /etc/tum.repos.d/CentOS.repo*************
 
 copy next 3 lines and past it on FortiNAC CLI
 
