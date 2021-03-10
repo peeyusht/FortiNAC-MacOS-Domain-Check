@@ -39,7 +39,7 @@ gpgcheck=0
 enabled=1
 
 
-*******Copy till above line and past that to /etc/tum.repos.d/CentOS.repo*************
+*********Copy till above line and past that to /etc/tum.repos.d/CentOS.repo***************
 
 copy next 3 lines and past it on FortiNAC CLI
 
